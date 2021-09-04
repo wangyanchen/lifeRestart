@@ -233,7 +233,7 @@ class App{
                     INT: groups.INT.get(),
                     STR: groups.STR.get(),
                     MNY: groups.MNY.get(),
-                    SPR: 5,
+                    SPR: 300,
                     TLT: Array.from(this.#talentSelected).map(({id})=>id),
                 });
                 this.switch('trajectory');
@@ -254,6 +254,7 @@ class App{
                 if(this.#isEnd) return;
                 const trajectory = this.#life.next();
                 const { age, content, isEnd } = trajectory;
+                console.log(trajectory)
 
                 const li = $(`<li><span>${age}岁：</span>${
                     content.map(

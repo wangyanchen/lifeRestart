@@ -16,6 +16,7 @@ const data = {
         {"min":7, "judge": "优秀", "grade": 1},
         {"min":9, "judge": "罕见", "grade": 2},
         {"min":11, "judge": "逆天", "grade": 3},
+        {"min":21, "judge": "超有钱", "grade": 3},
     ],
     "SPR": [
         {"judge": "地狱", "grade": 0},
@@ -25,6 +26,8 @@ const data = {
         {"min":7, "judge": "幸福", "grade": 1},
         {"min":9, "judge": "极乐", "grade": 2},
         {"min":11, "judge": "天命", "grade": 3},
+        {"min":20, "judge": "超凡", "grade": 3},
+        {"min":30, "judge": "脱俗", "grade": 3},
     ],
     "INT": [
         {"judge": "地狱", "grade": 0},
